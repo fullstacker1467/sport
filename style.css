@@ -1,0 +1,828 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@500;700&family=Volkhov:wght@400;700&display=swap");
+
+:root {
+  --poppons: "Poppins", sans-serif;
+  --poiret: "Poppins", sans-serif;
+  --volkhov: "Volkhov", serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1520px;
+  margin: 0 auto;
+}
+
+.btn-top {
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background: orangered;
+  border-radius: 50%;
+  padding: 6px 13px;
+  color: white;
+  font-size: 20px;
+  font-family: var(--poiret);
+}
+
+.first-piece {
+  width: 100%;
+  /* height: 760px; */
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.699)), url(https://www.out-sport.eu/wp-content/uploads/2018/05/Schermata-2018-06-19-alle-11.07.32-800x563.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  background: rgba(35, 46, 53, 0.888);
+  padding: 10px 80px;
+  z-index: 343;
+  margin-bottom: 50px;
+  backdrop-filter: blur(20px);
+}
+
+.navbar__wrap {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.hamb {
+  display: none;
+}
+
+.popup {
+  display: none;
+}
+
+.logo {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.menu>li>a {
+  text-decoration: none;
+  color: orangered;
+}
+
+.navbar__wrap .menu {
+  display: flex;
+}
+
+.navbar__wrap .menu>li {
+  display: flex;
+  align-items: stretch;
+}
+
+.navbar__wrap .menu>li>a {
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 19px;
+  font-family: var(--poppons);
+  padding: 0 20px;
+  color: orangered;
+}
+
+.navbar__wrap .menu>li>a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+nav .btn {
+  padding: 17px 30px;
+  border: none;
+  color: white;
+  background: orangered;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: all .3s linear;
+  cursor: pointer;
+}
+
+nav .btn:hover {
+  background: orange;
+}
+
+.open {
+  width: 100%;
+  height: 100%;
+  padding: 180px 0 200px 200px;
+}
+
+.open h3 {
+  position: relative;
+  color: orangered;
+  font-weight: 400;
+  font-family: var(--poppons);
+
+}
+
+.open h1 {
+  margin: 10px 0;
+  color: white;
+  font-family: var(--volkhov);
+  text-transform: uppercase;
+  font-size: 85px;
+  font-weight: 700;
+}
+
+.open .btn {
+  padding: 17px 30px;
+  border: none;
+  color: white;
+  background: orangered;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: all .3s linear;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.open .btn:hover {
+  background: orange;
+}
+
+.second-piece {
+  width: 100%;
+  height: 750px;
+  padding: 50px;
+}
+
+.second-piece .container{
+  display: flex;
+  align-items: center;
+}
+
+.second-piece .left {
+  display: flex;
+  justify-content: center;
+  width: 49%;
+}
+
+.second-piece .left .tatu {
+  width: auto;
+}
+
+.second-piece .right {
+  width: 49%;
+}
+
+.second-piece h3 {
+  position: relative;
+  color: orangered;
+  font-weight: 400;
+  font-family: var(--poppons);
+  margin-top: 60px;
+}
+
+.second-piece h1 {
+  margin: 10px 0;
+  color: rgb(15, 2, 61);
+  font-family: var(--poiret);
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.second-piece .btn {
+  padding: 13px 25px;
+  border: none;
+  color: white;
+  background: linear-gradient(35deg, orangered, rgb(255, 153, 0));
+  border-radius: 5px;
+  font-size: 18px;
+  transition: all .3s linear;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.second-piece p {
+  font-family: var(--poppons);
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 17px;
+}
+
+.second-piece h5 {
+  font-family: var(--poppons);
+  font-weight: 200;
+  line-height: 30px;
+  color: gray;
+  font-size: 16px;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.second-piece .btn:hover {
+  background: linear-gradient(35deg, rgb(251, 115, 66), rgb(255, 153, 0));
+}
+
+.third-piece {
+  width: 100%;
+  height: 1000px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.865), rgba(0, 0, 0, 0.852)), url(https://www.discovery.co.za/gallery/discoverycoza/content-hub/coronavirus-covid19-disease/to-gym-or-not-to-gym-banner-720x350.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.third-piece .top h3 {
+  position: relative;
+  color: orangered;
+  font-weight: 400;
+  font-family: var(--poppons);
+  margin-top: 60px;
+}
+
+.third-piece h1 {
+  margin: 10px 0;
+  color: white;
+  font-family: var(--poiret);
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.third-piece .btn {
+  padding: 23px 35px;
+  border: none;
+  color: white;
+  background: linear-gradient(35deg, orangered, rgb(255, 77, 0));
+  border-radius: 5px;
+  font-size: 22px;
+  transition: all .3s linear;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.third-piece .btn:hover {
+  background: linear-gradient(35deg, rgb(251, 115, 66), rgb(255, 153, 0));
+}
+
+.third-piece .top {
+  width: 100%;
+  padding: 50px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.third-piece .top .text {
+  width: 60%;
+}
+
+.third-piece .bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.third-piece .card {
+  width: 400px;
+  min-width: 280px;
+  height: 500px;
+  position: relative;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.196);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 27px;
+  align-items: center;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 4px orangered dashed;
+  transition: all .2s linear;
+}
+
+.third-piece .card:hover {
+  background: white;
+  border: none;
+}
+
+.third-piece .card:hover h3 {
+  color: black;
+}
+
+.third-piece .card:hover p {
+  color: rgb(110, 110, 110);
+}
+
+.third-piece .card::before {
+  content: 'Discover more about us';
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  font-size: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  bottom: -100px;
+  background: orangered;
+  color: white;
+  transition: all .3s linear;
+  font-family: var(--poppons);
+}
+
+.third-piece .card:hover::before {
+  bottom: 0;
+}
+
+.third-piece .card h3 {
+  font-family: var(--poppons);
+  font-weight: 400;
+  transition: all .2s linear;
+  color: white;
+  cursor: pointer;
+}
+
+.third-piece .card h3:hover {
+  color: orangered;
+}
+
+.third-piece .card p {
+  font-family: var(--poppons);
+  color: rgb(196, 196, 196);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+
+.fourth-piece {
+  width: 100%;
+  height: 750px;
+  padding: 50px;
+}
+
+.fourth-piece .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.fourth-piece .left {
+  display: flex;
+  justify-content: center;
+  width: 49%;
+}
+
+.fourth-piece img {
+  height: auto;
+  width: 500px;
+  min-width: 300px;
+}
+
+.fourth-piece .right {
+  width: 49%;
+  padding: 90px 50px;
+}
+
+.fourth-piece h3 {
+  position: relative;
+  color: orangered;
+  font-weight: 400;
+  font-family: var(--poppons);
+  margin-top: 60px;
+}
+
+.fourth-piece h1 {
+  margin: 10px 0;
+  color: rgb(15, 2, 61);
+  font-family: var(--poiret);
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.fourth-piece p {
+  font-family: var(--poppons);
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 17px;
+  color: gray;
+}
+
+.fifth-piece {
+  width: 100%;
+  height: 1000px;
+}
+
+.fifth-piece .top h3 {
+  position: relative;
+  color: orangered;
+  font-weight: 400;
+  font-family: var(--poppons);
+  margin-top: 60px;
+}
+
+.fifth-piece h1 {
+  margin: 10px 0;
+  color: rgb(1, 1, 50);
+  font-family: var(--poiret);
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.fifth-piece .btn {
+  padding: 23px 35px;
+  border: none;
+  color: white;
+  background: linear-gradient(35deg, orangered, rgb(255, 77, 0));
+  border-radius: 5px;
+  font-size: 22px;
+  transition: all .3s linear;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.fifth-piece .btn:hover {
+  background: linear-gradient(35deg, rgb(251, 115, 66), rgb(255, 153, 0));
+}
+
+.fifth-piece .top {
+  width: 100%;
+  padding: 50px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fifth-piece .top .text {
+  width: 60%;
+}
+
+.fifth-piece .bottom {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.fifth-piece .card:nth-child(1) {
+  width: 430px;
+  height: 550px;
+  position: relative;
+  text-align: center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.632), rgba(0, 0, 0, 0.564)), url(https://w0.peakpx.com/wallpaper/565/807/HD-wallpaper-gym-bodybuilding-gym-motivation.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all .2s linear;
+}
+
+.fifth-piece .card:nth-child(2) {
+  width: 430px;
+  height: 550px;
+  position: relative;
+  text-align: center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.632), rgba(0, 0, 0, 0.564)), url(https://i.pinimg.com/originals/0d/d9/a1/0dd9a1beef39861b062d2aa7df313c3f.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all .2s linear;
+}
+
+.fifth-piece .card:nth-child(3) {
+  width: 430px;
+  height: 550px;
+  position: relative;
+  text-align: center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.632), rgba(0, 0, 0, 0.564)), url(https://cutewallpaper.org/22/aesthetic-bodybuilder-hd-wallpapers/%F0%9F%94%A5-aesthetic-jeff-seid-photos-wallpapers-full-hd-ultra-wallpaper-body-builder-image-free-dowwnload.jpeg);
+  background-size: cover;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all .2s linear;
+}
+
+
+.fifth-piece .card::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 120px;
+  font-size: 21px;
+  left: 0;
+  bottom: -40px;
+  background: transparent;
+  transition: all .3s linear;
+}
+
+.fifth-piece .card:hover::before {
+  background: orangered;
+  bottom: 0px;
+}
+
+.fifth-piece .card:hover h3 {
+  color: aliceblue;
+}
+
+.fifth-piece .card:hover h3::before {
+  background: white;
+  bottom: 0px;
+}
+
+.fifth-piece .card h3 {
+  bottom: 70px;
+  left: 80px;
+  position: absolute;
+  font-family: var(--poppons);
+  font-size: 14px;
+  color: gray;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.fifth-piece .card h2 {
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+  font-family: var(--poppons);
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+}
+
+.mid {
+  width: 100%;
+  height: 400px;
+  background: rgb(21, 21, 48);
+  display: flex;
+  align-items: center;
+  padding: 0 80px;
+  margin-bottom: 50px;
+}
+
+.mid .btn {
+  padding: 23px 35px;
+  border: none;
+  color: white;
+  background: linear-gradient(35deg, orangered, rgb(255, 77, 0));
+  border-radius: 5px;
+  font-size: 22px;
+  transition: all .3s linear;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.mid h1 {
+  font-size: 55px;
+  color: white;
+  font-family: var(--volkhov);
+  padding-top: 50px;
+}
+
+.mid .btn:hover {
+  background: linear-gradient(35deg, rgb(251, 115, 66), rgb(255, 153, 0));
+}
+
+.pre-mid {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.pre-mid h1 {
+  margin: 10px 0;
+  color: rgb(15, 2, 61);
+  font-family: var(--poiret);
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.pre-mid h3 {
+  position: relative;
+  color: orangered;
+  font-weight: 400;
+  font-family: var(--poppons);
+  margin-left: 85px;
+  margin-top: 60px;
+}
+
+.after-mid {
+  width: 100%;
+  height: 300px;
+}
+
+.after-mid ul {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.after-mid ul li {
+  list-style: none;
+  font-family: var(--poiret);
+  font-size: 23px;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all linear .3s;
+}
+
+.mini-cards {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 500px;
+}
+
+
+.mini-cards .card {
+  border-radius: 10px;
+  transition: all linear .2s;
+  width: 200px;
+  height: 200px;
+  padding: 35px;
+}
+
+.mini-cards .card h3 {
+  font-family: var(--poppons);
+  font-weight: 400;
+  cursor: pointer;
+  width: 90px;
+  padding: 5px;
+  font-size: 14px;
+  color: white;
+  background: black;
+}
+
+.mini-cards .card h2 {
+  font-family: var(--poppons);
+  font-weight: 400;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.mini-cards .card h4 {
+  font-family: var(--poppons);
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.before-footer {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  margin-top: 270px;
+  padding: 20px 370px;
+}
+
+.before-footer h1 {
+  margin: 10px 0;
+  color: rgb(15, 2, 61);
+  font-family: var(--poiret);
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.before-footer h3 {
+  position: relative;
+  color: orangered;
+  font-weight: 400;
+  font-family: var(--poppons);
+  margin-top: 60px;
+}
+
+.pre-footer {
+  width: 100%;
+  height: 750px;
+  padding: 40px 110px;
+}
+
+.pre-footer .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pre-footer .card {
+  position: relative;
+  width: 550px;
+  height: 550px;
+  overflow: hidden;
+}
+
+.pre-footer .card img {
+  position: relative;
+  transition: all linear .2s;
+  width: 100%;
+  height: 350px;
+}
+
+.pre-footer .card::before {
+  content: '24 Now';
+  color: white;
+  position: absolute;
+  z-index: 3;
+  top: 53%;
+  left: 0;
+  width: 70px;
+  height: 70px;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  background: orangered;
+}
+
+.pre-footer .card img:hover {
+  transform: scale(1.05);
+}
+
+.pre-footer .card .text {
+  padding: 0 60px;
+  width: 100%;
+  height: 200px;
+}
+
+.pre-footer .card .text h2 {
+  color: rgb(15, 2, 61);
+  font-family: var(--poiret);
+  font-weight: 700;
+}
+
+.pre-footer .card .text h3 {
+  position: relative;
+  color: darkblue;
+  font-weight: 400;
+  font-family: var(--poppons);
+  margin-top: 60px;
+}
+
+footer {
+  padding: 50px 100px;
+  width: 100%;
+  height: 750px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.749), rgba(0, 0, 0, 0.744)), url(img/kach.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer .container{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer ul {
+  width: 350px;
+}
+
+footer .site {
+  width: 350px;
+}
+
+footer .site p {
+  margin: 30px 0;
+  color: gray;
+  font-family: var(--poppons);
+}
+
+footer ul h1 {
+  color: white;
+  font-family: var(--poiret);
+  font-size: 22px;
+}
+
+footer ul li {
+  color: grey;
+  list-style: none;
+  padding: 10px;
+  font-size: 15px;
+  font-family: var(--poppons);
+}
